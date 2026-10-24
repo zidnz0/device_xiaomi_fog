@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fog.mk
+    $(LOCAL_DIR)/derp_fog.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_fog-user \
-    lineage_fog-userdebug \
-    lineage_fog-eng
+    derp_fog-user \
+    derp_fog-userdebug \
+    derp_fog-eng
