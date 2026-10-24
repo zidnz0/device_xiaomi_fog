@@ -554,3 +554,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/fog/fog-vendor.mk)
+
+# Miuicam
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
